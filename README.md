@@ -19,7 +19,7 @@ Section-Aware Processing: Preserves document structure
 Installation ⚙️
 bash
 # Clone repository
-git clone https://github.com/your-username/tinyllama-rag-chatbot.git
+git clone https://github.com/tarek1503/rag-chatbot-tinyllama.git
 cd tinyllama-rag-chatbot
 
 # Install dependencies
@@ -42,6 +42,7 @@ bash
 streamlit run app.py
 Project Structure 📂
 text
+
 tinyllama-rag-chatbot/
 ├── data/                   # Document storage (add your PDF here)
 │   └── knowledge_base.pdf  # Your PDF file (not version controlled)
@@ -54,6 +55,7 @@ tinyllama-rag-chatbot/
 ├── ingest.py               # Document processing pipeline
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
+
 Configuration ⚙️
 File	Parameter	Description	Default
 utils/data_loader.py	chunk_size	Text chunk size	500

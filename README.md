@@ -48,15 +48,21 @@ text
 
 tinyllama-rag-chatbot/
 ├── data/                   # Document storage (add your PDF here)
-│   └── knowledge_base.pdf  # Your PDF file (not version controlled)
+│ └── knowledge_base.pdf  # Your PDF file (not version controlled)
+
 ├── vector_store/           # Generated vector store (created by ingest.py)
+
 ├── utils/                  # Core functionality
 │   ├── data_loader.py      # PDF processing and text extraction
 │   ├── llm_helper.py       # TinyLlama setup and prompt formatting
 │   └── vector_store.py     # Embedding generation and FAISS management
+
 ├── app.py                  # Streamlit chat interface
+
 ├── ingest.py               # Document processing pipeline
+
 ├── requirements.txt        # Python dependencies
+
 └── README.md               # This file
 
 

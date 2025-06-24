@@ -40,6 +40,9 @@ Start the chatbot interface:
 
 bash
 streamlit run app.py
+
+
+
 Project Structure 📂
 text
 
@@ -55,6 +58,9 @@ tinyllama-rag-chatbot/
 ├── ingest.py               # Document processing pipeline
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
+
+
+
 
 Configuration ⚙️
 File	Parameter	Description	Default

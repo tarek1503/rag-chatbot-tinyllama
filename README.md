@@ -42,13 +42,16 @@ bash
 streamlit run app.py
 
 Configuration ⚙️
+
 File	Parameter	Description	Default
 utils/data_loader.py	chunk_size	Text chunk size	500
 utils/data_loader.py	chunk_overlap	Chunk overlap	100
 utils/llm_helper.py	max_new_tokens	Max response tokens	256
 app.py	k	Context chunks to retrieve	3
 vector_store.py	model_name	Embedding model	all-MiniLM-L6-v2
+
 Troubleshooting 🛠️
+
 PDF Processing Issues
 If answers are inaccurate:
 

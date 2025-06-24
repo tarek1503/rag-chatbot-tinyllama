@@ -20,3 +20,37 @@ cd rag-chatbot-tinyllama
 
 # Install dependencies
 pip install -r requirements.txt
+
+## Setup 🛠️
+1. **Add your knowledge base PDF**:
+   - Place your PDF file in the `data/` directory
+   - Rename it to `knowledge_base.pdf` or update the path in `ingest.py`
+
+2. **Process your document**:
+```bash
+python ingest.py
+This will:
+
+Extract text from your PDF
+
+Split it into meaningful chunks
+
+Create a FAISS vector store
+
+Save embeddings and metadata
+
+2. Launch the chatbot
+bash
+streamlit run app.py
+
+
+Limitations ⚠️
+PDF text extraction quality depends on document structure
+
+TinyLlama has limited knowledge compared to larger models
+
+Complex queries might require model fine-tuning
+
+First response may be slow due to model loading
+
+Note: The knowledge base PDF and generated vector stores are excluded from version control. Place your PDF in the data/ directory before running the application.

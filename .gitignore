@@ -1,0 +1,26 @@
+# Ignore vector stores
+/vector_store/
+/vectore_store/
+
+# Ignore data files (except source PDF)
+data/*
+!data/knowledge_base.pdf
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+venv/
+env/
+
+# System files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+EOF

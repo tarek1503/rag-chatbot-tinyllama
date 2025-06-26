@@ -1,5 +1,5 @@
 streamlit==1.35.0
-PyPDF2==3.0.1
+#PyPDF2==3.0.1
 sentence-transformers==2.7.0
 faiss-cpu==1.8.0
 transformers==4.41.2
@@ -10,3 +10,5 @@ langchain==0.1.17
 langchain-core==0.1.48  # Must be >=0.1.48 for langchain 0.1.17
 langchain-text-splitters==0.0.2  # Required for text splitting
 torch==2.3.0
+pypdf==4.2.0
+python-docx==1.1.0
